@@ -3,6 +3,7 @@ var express = require('express');
 var router = express.Router();
 
 var MongoClient = require('mongodb').MongoClient;
+
 var url = "mongodb://systemdev:8cwgKwygaKBVIQHjQwJppgAN6V5tlmgSPGYeTE7bbwkiTlcFBweidntfaqKuwg1dFMX2Oe3wj45kX64uCQJx4Q==@systemdev.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@systemdev@";
 
 
